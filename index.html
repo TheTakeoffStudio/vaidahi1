@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>Vaidahi Wear — Luxury Kids Fashion & Customized Ethnic Wear</title>
+<meta name="description" content="Vaidahi Wear crafts dreams into outfits — premium princess frocks, party wear and customized ethnic wear for your little princess." />
+<meta property="og:title" content="Vaidahi Wear — Luxury Kids Fashion" />
+<meta property="og:description" content="Premium princess frocks, party wear and customized ethnic wear." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Announcement bar -->
+<div class="announce">
+  <div class="announce__track">
+    <span>✨ Free shipping on orders over ₹1,499</span>
+    <span>•</span>
+    <span>Flat 40% off — Diwali Sale Live</span>
+    <span>•</span>
+    <span>Customized ethnic wear crafted with love</span>
+    <span>•</span>
+    <span>Call us +91 73023 41197</span>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="container header__inner">
+    <input id="navToggle" type="checkbox" class="nav-toggle" hidden>
+    <label for="navToggle" class="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </label>
+
+    <a href="#" class="brand">
+      <span class="brand__mark">V</span>
+      <span class="brand__name">Vaidahi <em>Wear</em></span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li class="has-mega"><a href="#shop">Shop ▾</a>
+          <div class="mega">
+            <div>
+              <h5>The Collection</h5>
+              <a href="#casual">Casual Wear</a>
+              <a href="#party">Party Wear</a>
+              <a href="#birthday">Birthday Wear</a>
+              <a href="#ethnic">Ethnic Wear</a>
+            </div>
+            <div>
+              <h5>Accessories</h5>
+              <a href="#">Arriving Soon</a>
+            </div>
+            <div class="mega__promo">
+              <span class="eyebrow">40% Sale Off</span>
+              <h4>Happy Diwali Sale</h4>
+              <a class="link-arrow" href="#sale">Shop the edit →</a>
+            </div>
+          </div>
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__actions">
+      <label class="search" for="searchOpen">
+        <input id="searchOpen" type="checkbox" hidden>
+        <button class="icon-btn" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+        <div class="search__panel">
+          <input type="search" placeholder="Search frocks, sharara, headbands…" />
+          <button>Search</button>
+        </div>
+      </label>
+      <a href="#" class="icon-btn" aria-label="Account"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg></a>
+      <a href="#wishlist" class="icon-btn" aria-label="Wishlist"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.35-7-10a4 4 0 0 1 7-2.65A4 4 0 0 1 19 11c0 5.65-7 10-7 10z"/></svg><span class="badge">3</span></a>
+      <a href="#cart" class="icon-btn" aria-label="Cart"><svg viewBox="0 0 24 24"><path d="M6 7h12l-1.5 11h-9z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span class="badge">2</span></a>
+    </div>
+  </div>
+
+  <!-- Mobile drawer -->
+  <div class="drawer">
+    <label for="navToggle" class="drawer__scrim"></label>
+    <aside class="drawer__panel">
+      <div class="drawer__head">
+        <span class="brand__name">Vaidahi <em>Wear</em></span>
+        <label for="navToggle" class="close" aria-label="Close">✕</label>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <details>
+          <summary>Shop</summary>
+          <a href="#casual">Casual Wear</a>
+          <a href="#party">Party Wear</a>
+          <a href="#birthday">Birthday Wear</a>
+          <a href="#ethnic">Ethnic Wear</a>
+          <a href="#">Accessories (Soon)</a>
+        </details>
+        <a href="#about">About</a>
+        <a href="#blog">Kids Fashion Blog</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="drawer__foot">
+        <a href="tel:+917302341197">+91 73023 41197</a>
+        <a href="mailto:vaidahiwear5@gmail.com">vaidahiwear5@gmail.com</a>
+      </div>
+    </aside>
+  </div>
+</header>
+
+<main>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="hero__bg" aria-hidden="true"></div>
+  <div class="container hero__grid">
+    <div class="hero__copy">
+      <span class="eyebrow">40% Sale Off</span>
+      <h1>Little Princess<br><em>Celebration</em></h1>
+      <p>Where every birthday becomes a royal celebration. Hand-crafted frocks designed to make her sparkle with joy.</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#new">Shop Now</a>
+        <a class="btn btn--ghost" href="#ethnic">Explore Ethnic Wear</a>
+      </div>
+      <ul class="hero__meta">
+        <li><strong>1.2k+</strong><span>Happy Princesses</span></li>
+        <li><strong>4.9★</strong><span>Customer Rating</span></li>
+        <li><strong>Made in</strong><span>Dehradun, India</span></li>
+      </ul>
+    </div>
+    <div class="hero__art">
+      <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_151659-1-270x350.jpg" alt="Hot Pink One Shoulder Princess Frock" class="hero__img hero__img--1"/>
+      <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_145406-1-270x350.jpg" alt="Adorable Pink & White Ruffle Frock" class="hero__img hero__img--2"/>
+      <div class="hero__sticker">
+        <span class="eyebrow">Happy Diwali</span>
+        <strong>₹651</strong>
+        <small>Surprise her with the perfect gift</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Trust strip -->
+<section class="strip">
+  <div class="container strip__row">
+    <div><strong>Free Shipping</strong><span>On orders over ₹1,499</span></div>
+    <div><strong>Easy Returns</strong><span>7-day hassle free</span></div>
+    <div><strong>Made With Love</strong><span>Crafted in Dehradun</span></div>
+    <div><strong>Secure Payments</strong><span>UPI · Cards · COD</span></div>
+  </div>
+</section>
+
+<!-- Categories -->
+<section class="section" id="shop">
+  <div class="container">
+    <header class="section__head">
+      <span class="eyebrow">Categories</span>
+      <h2>The Vaidahi Wear Collection</h2>
+      <p>Four edits, endless smiles — discover the look that fits her story.</p>
+    </header>
+    <div class="cats">
+      <a class="cat" id="casual" href="#">
+        <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_145829-1-270x350.jpg" alt=""/>
+        <span class="cat__name">Casual Wear</span>
+      </a>
+      <a class="cat" id="party" href="#">
+        <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_145619-1-370x480.jpg" alt=""/>
+        <span class="cat__name">Party Wear</span>
+      </a>
+      <a class="cat" id="birthday" href="#">
+        <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_151659-1-270x350.jpg" alt=""/>
+        <span class="cat__name">Birthday Wear</span>
+      </a>
+      <a class="cat" id="ethnic" href="#">
+        <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG-20250925-WA0006-370x480.jpg" alt=""/>
+        <span class="cat__name">Ethnic Wear</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Editorial banners -->
+<section class="section banners" id="sale">
+  <div class="container banners__grid">
+    <article class="banner banner--lg" style="--img:url('https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_145406-1-270x350.jpg')">
+      <div class="banner__inner">
+        <span class="eyebrow">40% Sale Off</span>
+        <h3>Elegance Meets Uniqueness</h3>
+        <p>Let your princess stand out in style at every party.</p>
+        <a class="link-arrow" href="#">Shop Now →</a>
+      </div>
+    </article>
+    <article class="banner" style="--img:url('https://vaidahiwear.com/wp-content/uploads/2025/09/IMG-20250924-WA0045-370x480.jpg')">
+      <div class="banner__inner">
+        <span class="eyebrow">Customized Ethnic Wear</span>
+        <h3>Custom. Cute. Classic.</h3>
+        <p>Crafted with love for your little princess.</p>
+        <a class="link-arrow" href="#">Shop Now →</a>
+      </div>
+    </article>
+    <article class="banner" style="--img:url('https://vaidahiwear.com/wp-content/uploads/2025/09/IMG-20250925-WA0006-370x480.jpg')">
+      <div class="banner__inner">
+        <span class="eyebrow">40% Sale Off</span>
+        <h3>Happy Diwali Sale</h3>
+        <p>Collect premium dresses for your princess today.</p>
+        <a class="link-arrow" href="#">Shop Now →</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- New Arrivals -->
+<section class="section" id="new">
+  <div class="container">
+    <header class="section__head section__head--row">
+      <div>
+        <span class="eyebrow">Just In</span>
+        <h2>New Arrival</h2>
+      </div>
+      <a class="link-arrow" href="#">View all →</a>
+    </header>
+
+    <div class="products">
+      <!-- card 1 -->
+      <article class="card">
+        <div class="card__media">
+          <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_151659-1-270x350.jpg" alt=""/>
+          <span class="tag tag--sale">-35%</span>
+          <span class="tag tag--new">New</span>
+          <div class="card__actions">
+            <button aria-label="Wishlist">♡</button>
+            <button aria-label="Quick view">⌕</button>
+          </div>
+          <button class="card__atc">Add to Cart</button>
+        </div>
+        <div class="card__body">
+          <div class="stars" aria-label="Rated 4.9 of 5">★★★★★</div>
+          <h4><a href="#">Hot Pink One Shoulder Princess Frock — Matching Headband</a></h4>
+          <p class="price"><span class="price__now">₹1,800</span><span class="price__old">₹2,749</span></p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_145406-1-270x350.jpg" alt=""/>
+          <span class="tag tag--sale">-37%</span>
+          <div class="card__actions"><button>♡</button><button>⌕</button></div>
+          <button class="card__atc">Add to Cart</button>
+        </div>
+        <div class="card__body">
+          <div class="stars">★★★★★</div>
+          <h4><a href="#">Adorable Pink & White Ruffle Frock with Cat-ears Headband</a></h4>
+          <p class="price"><span class="price__now">₹2,200</span><span class="price__old">₹3,500</span></p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_145443-1-270x350.jpg" alt=""/>
+          <span class="tag tag--sale">-38%</span>
+          <div class="card__actions"><button>♡</button><button>⌕</button></div>
+          <button class="card__atc">Add to Cart</button>
+        </div>
+        <div class="card__body">
+          <div class="stars">★★★★☆</div>
+          <h4><a href="#">Sunshine Yellow Floral Party Frock — Matching Headband</a></h4>
+          <p class="price"><span class="price__now">₹1,235</span><span class="price__old">₹2,000</span></p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_145829-1-270x350.jpg" alt=""/>
+          <span class="tag tag--trend">Trending</span>
+          <div class="card__actions"><button>♡</button><button>⌕</button></div>
+          <button class="card__atc">Add to Cart</button>
+        </div>
+        <div class="card__body">
+          <div class="stars">★★★★★</div>
+          <h4><a href="#">Lime Green Floral Party / Casual Wear Girl Frock</a></h4>
+          <p class="price"><span class="price__now">₹1,235</span><span class="price__old">₹2,000</span></p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Editorial split -->
+<section class="section split">
+  <div class="container split__grid">
+    <div class="split__art">
+      <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_145619-1-370x480.jpg" alt=""/>
+    </div>
+    <div class="split__copy">
+      <span class="eyebrow">Customized Ethnic Wear</span>
+      <h2>Custom. Cute. Classic.</h2>
+      <p>From hand-picked fabrics to delicate hand-embroidery — every Vaidahi piece is tailored to your little one's measurements, mood and moment.</p>
+      <ul class="ticks">
+        <li>Made-to-measure stitching</li>
+        <li>Skin-friendly premium fabrics</li>
+        <li>Free matching headband included</li>
+        <li>Personalised name tag on request</li>
+      </ul>
+      <a class="btn btn--primary" href="#ethnic">Start Customizing</a>
+    </div>
+  </div>
+</section>
+
+<!-- Popular Collection -->
+<section class="section" id="popular">
+  <div class="container">
+    <header class="section__head section__head--row">
+      <div>
+        <span class="eyebrow">Best Sellers</span>
+        <h2>Popular Collection</h2>
+      </div>
+      <a class="link-arrow" href="#">View all →</a>
+    </header>
+
+    <div class="products">
+      <article class="card">
+        <div class="card__media">
+          <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG-20250925-WA0006-370x480.jpg" alt=""/>
+          <span class="tag tag--sale">-41%</span>
+          <div class="card__actions"><button>♡</button><button>⌕</button></div>
+          <button class="card__atc">Add to Cart</button>
+        </div>
+        <div class="card__body">
+          <div class="stars">★★★★★</div>
+          <h4><a href="#">Teal Blue Floral Printed Sharara Set — Ethnic Wear</a></h4>
+          <p class="price"><span class="price__now">₹650</span><span class="price__old">₹1,100</span></p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG-20250924-WA0045-370x480.jpg" alt=""/>
+          <span class="tag tag--sale">-41%</span>
+          <div class="card__actions"><button>♡</button><button>⌕</button></div>
+          <button class="card__atc">Add to Cart</button>
+        </div>
+        <div class="card__body">
+          <div class="stars">★★★★★</div>
+          <h4><a href="#">Bright Neon Colour Sharara Set</a></h4>
+          <p class="price"><span class="price__now">₹650</span><span class="price__old">₹1,100</span></p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_150740-1-370x480.jpg" alt=""/>
+          <span class="tag tag--sale">-30%</span>
+          <div class="card__actions"><button>♡</button><button>⌕</button></div>
+          <button class="card__atc">Add to Cart</button>
+        </div>
+        <div class="card__body">
+          <div class="stars">★★★★★</div>
+          <h4><a href="#">Vibrant Pink Frock with Matching Headband</a></h4>
+          <p class="price"><span class="price__now">₹1,999</span><span class="price__old">₹2,875</span></p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_145705-1-370x480.jpg" alt=""/>
+          <span class="tag tag--sale">-24%</span>
+          <div class="card__actions"><button>♡</button><button>⌕</button></div>
+          <button class="card__atc">Add to Cart</button>
+        </div>
+        <div class="card__body">
+          <div class="stars">★★★★★</div>
+          <h4><a href="#">Blush Pink Princess Tutu Dress — 3D Floral Rosette</a></h4>
+          <p class="price"><span class="price__now">₹2,199</span><span class="price__old">₹2,875</span></p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_145619-1-370x480.jpg" alt=""/>
+          <span class="tag tag--sale">-33%</span>
+          <div class="card__actions"><button>♡</button><button>⌕</button></div>
+          <button class="card__atc">Add to Cart</button>
+        </div>
+        <div class="card__body">
+          <div class="stars">★★★★☆</div>
+          <h4><a href="#">Elegant Ivory Ruffled Tulle & Beaded Kids Frock</a></h4>
+          <p class="price"><span class="price__now">₹1,600</span><span class="price__old">₹2,400</span></p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_170720-1-370x480.jpg" alt=""/>
+          <span class="tag tag--sale">-35%</span>
+          <div class="card__actions"><button>♡</button><button>⌕</button></div>
+          <button class="card__atc">Add to Cart</button>
+        </div>
+        <div class="card__body">
+          <div class="stars">★★★★★</div>
+          <h4><a href="#">Red Satin Frock with Pearl & Small Bows Detailing</a></h4>
+          <p class="price"><span class="price__now">₹1,800</span><span class="price__old">₹2,750</span></p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Diwali offer band -->
+<section class="offer">
+  <div class="container offer__grid">
+    <div>
+      <span class="eyebrow">Happy Diwali</span>
+      <h2>This Diwali, surprise your princess with the perfect gift — just at <em>₹651</em></h2>
+      <a class="btn btn--light" href="#">Shop Now</a>
+    </div>
+    <div class="offer__art" aria-hidden="true">
+      <span class="diya"></span><span class="diya"></span><span class="diya"></span>
+    </div>
+  </div>
+</section>
+
+<!-- Top Rated -->
+<section class="section" id="top">
+  <div class="container">
+    <header class="section__head"><span class="eyebrow">Editor's Edit</span><h2>Top Rated</h2></header>
+    <div class="toplist">
+      <a class="toprow" href="#">
+        <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG-20250925-WA0006.jpg" alt=""/>
+        <div>
+          <h5>Teal Blue Floral Printed Sharara Set — Ethnic Wear</h5>
+          <div class="stars">★★★★★</div>
+          <p class="price"><span class="price__now">₹650</span><span class="price__old">₹1,100</span></p>
+        </div>
+      </a>
+      <a class="toprow" href="#">
+        <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG-20250924-WA0045.jpg" alt=""/>
+        <div>
+          <h5>Bright Neon Colour Sharara Set</h5>
+          <div class="stars">★★★★★</div>
+          <p class="price"><span class="price__now">₹650</span><span class="price__old">₹1,100</span></p>
+        </div>
+      </a>
+      <a class="toprow" href="#">
+        <img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_150740-1.jpg" alt=""/>
+        <div>
+          <h5>Vibrant Pink Frock with Matching Headband</h5>
+          <div class="stars">★★★★★</div>
+          <p class="price"><span class="price__now">₹1,999</span><span class="price__old">₹2,875</span></p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="section testimonials">
+  <div class="container">
+    <header class="section__head"><span class="eyebrow">Loved by parents</span><h2>What Our Princess Moms Say</h2></header>
+    <div class="reviews">
+      <figure class="review"><div class="stars">★★★★★</div><blockquote>“The stitching, the fabric, the fit — everything was perfect. My daughter felt like a real princess at her birthday.”</blockquote><figcaption>— Aanchal S., Dehradun</figcaption></figure>
+      <figure class="review"><div class="stars">★★★★★</div><blockquote>“Customized ethnic set arrived in 6 days and looked even better than the photos. Will absolutely order again.”</blockquote><figcaption>— Pooja M., Mumbai</figcaption></figure>
+      <figure class="review"><div class="stars">★★★★★</div><blockquote>“Beautiful packaging and a handwritten note. You can feel the love that goes into each piece.”</blockquote><figcaption>— Neha R., Bangalore</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="section about" id="about">
+  <div class="container about__grid">
+    <div>
+      <span class="eyebrow">Our Story</span>
+      <h2>About Vaidahi Wear</h2>
+      <p>At Vaidahi Wear, we craft dreams into outfits. From customized ethnic wear designed to reflect your unique style, to exquisite princess frocks that make little girls sparkle with joy — every piece is made with love, care and attention to detail.</p>
+      <a class="link-arrow" href="#">Read our story →</a>
+    </div>
+    <div class="about__stats">
+      <div><strong>2019</strong><span>Founded in Dehradun</span></div>
+      <div><strong>100%</strong><span>Hand-finished</span></div>
+      <div><strong>Pan-India</strong><span>Shipping</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section faq" id="faq">
+  <div class="container">
+    <header class="section__head"><span class="eyebrow">Help Center</span><h2>Frequently Asked Questions</h2></header>
+    <div class="faq__list">
+      <details open><summary>Do you offer customised stitching?</summary><p>Yes — share your child's measurements at checkout and we'll tailor the outfit to fit beautifully.</p></details>
+      <details><summary>How long does delivery take?</summary><p>Ready-to-ship pieces arrive in 3–5 business days. Customised orders take 7–10 business days.</p></details>
+      <details><summary>What is your return policy?</summary><p>We offer 7-day easy returns on non-customised items. See our <a href="#">Return Policy</a> for details.</p></details>
+      <details><summary>Which fabrics do you use?</summary><p>Premium cotton blends, tulle, satin and hand-embroidered fabrics — all chosen for sensitive young skin.</p></details>
+      <details><summary>Do you ship outside India?</summary><p>International shipping is coming soon. Drop us a note and we'll keep you posted.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- Instagram -->
+<section class="section insta">
+  <div class="container">
+    <header class="section__head"><span class="eyebrow">@vaidahiwear</span><h2>Follow our little princesses</h2></header>
+    <div class="insta__grid">
+      <a href="#"><img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_151659-1-270x350.jpg" alt=""/></a>
+      <a href="#"><img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_145406-1-270x350.jpg" alt=""/></a>
+      <a href="#"><img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_145443-1-270x350.jpg" alt=""/></a>
+      <a href="#"><img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG_20250712_145829-1-270x350.jpg" alt=""/></a>
+      <a href="#"><img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG-20250925-WA0006-370x480.jpg" alt=""/></a>
+      <a href="#"><img src="https://vaidahiwear.com/wp-content/uploads/2025/09/IMG-20250924-WA0045-370x480.jpg" alt=""/></a>
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter -->
+<section class="section newsletter">
+  <div class="container newsletter__card">
+    <span class="eyebrow">Stay In The Loop</span>
+    <h2>Subscribe to Our Newsletter</h2>
+    <p>Early access to drops, member-only discounts and styling tips for little princesses.</p>
+    <form class="newsletter__form" onsubmit="event.preventDefault()">
+      <input type="email" required placeholder="Enter your email address"/>
+      <button class="btn btn--primary" type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="section contact" id="contact">
+  <div class="container contact__grid">
+    <div>
+      <span class="eyebrow">Get In Touch</span>
+      <h2>We're just a message away</h2>
+      <ul class="contact__list">
+        <li><strong>Address</strong><span>Lane 3, Tarun Vihar, Mothrowala Road, Dehradun 248001</span></li>
+        <li><strong>Phone</strong><a href="tel:+917302341197">+91 73023 41197</a></li>
+        <li><strong>Email</strong><a href="mailto:vaidahiwear5@gmail.com">vaidahiwear5@gmail.com</a></li>
+      </ul>
+      <h4 class="hours-title">Opening Hours</h4>
+      <ul class="hours">
+        <li><span>Fri – Wed</span><span>09:00 AM – 05:00 PM</span></li>
+        <li><span>Thursday</span><span>Closed</span></li>
+      </ul>
+    </div>
+    <form class="contact__form" onsubmit="event.preventDefault()">
+      <label>Name<input type="text" required placeholder="Your name"/></label>
+      <label>Email<input type="email" required placeholder="you@email.com"/></label>
+      <label>Phone<input type="tel" placeholder="+91"/></label>
+      <label>Message<textarea rows="4" placeholder="Tell us about your little princess…"></textarea></label>
+      <button class="btn btn--primary" type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div>
+      <a href="#" class="brand brand--light">
+        <span class="brand__mark">V</span>
+        <span class="brand__name">Vaidahi <em>Wear</em></span>
+      </a>
+      <p class="footer__about">Crafting dreams into outfits — premium princess frocks and customized ethnic wear, made with love in Dehradun.</p>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="Pinterest">PN</a>
+        <a href="#" aria-label="WhatsApp">WA</a>
+      </div>
+    </div>
+    <div>
+      <h5>Useful Links</h5>
+      <ul>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Kids Fashion Blog</a></li>
+        <li><a href="#faq">FAQ's</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Policies</h5>
+      <ul>
+        <li><a href="#">Terms & Condition</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Return Policy</a></li>
+        <li><a href="#">Shipping Policy</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Get In Touch</h5>
+      <ul>
+        <li>Lane 3 Tarun Vihar, Mothrowala Road, Dehradun 248001</li>
+        <li><a href="tel:+917302341197">+91 73023 41197</a></li>
+        <li><a href="mailto:vaidahiwear5@gmail.com">vaidahiwear5@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bar container">
+    <p>© 2025 Vaidahi Wear. All Rights Reserved.</p>
+    <div class="pay">
+      <span>VISA</span><span>MC</span><span>UPI</span><span>RuPay</span><span>COD</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile bottom nav -->
+<nav class="botnav" aria-label="Mobile">
+  <a href="#home"><span>⌂</span><small>Home</small></a>
+  <a href="#shop"><span>☰</span><small>Shop</small></a>
+  <label for="searchOpen"><span>⌕</span><small>Search</small></label>
+  <a href="#wishlist"><span>♡</span><small>Wishlist</small></a>
+  <a href="#cart"><span>⛢</span><small>Cart</small></a>
+</nav>
+
+</body>
+</html>
